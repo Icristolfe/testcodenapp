@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# TEST
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>🔰 TEST </h1>
 
-## Available Scripts
+![ReactJs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![StyledComponents](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
-In the project directory, you can run:
+<p>Test FrontEnd Developer</p>
 
-### `npm start`
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/196553482@N03/52758200570/in/dateposted-public/" title="Captura de tela de 2023-03-19 15-51-03"><img src="https://live.staticflickr.com/65535/52758200570_695699e264_c.jpg" width="1024" height="500" alt="Captura de tela de 2023-03-19 15-51-03"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/196553482@N03/52758206610/in/dateposted-public/" title="Captura de tela de 2023-03-19 15-57-28"><img src="https://live.staticflickr.com/65535/52758206610_34e6807564_c.jpg" width="1024" height="500" alt="Captura de tela de 2023-03-19 15-57-28"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+```
+Rotas:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Inicio: localhost:4000/
+Login Professor: localhost:4000/proflogin
+Login Aluno: localhost:4000/alunologin
+Home Professor: localhost:4000/professor
+Home Aluno: localhost:4000/aluno
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O docker disponibilizará um link para acesso ao app dentro de sua propria rede
+geralmente um link com o seu ip e a porta pré-definida :
+On Your Network:  http://172.18.0.2:4000
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- no terminal -
+use yarn => para instalar as dependencias
+para iniciar o docker compose => docker-compose up
+para rodar o container em detached mode => docker-compose up -d
+```
+## Criador do Projeto
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/82662425?v=4" width="100px;" alt="Foto do Icaro Cristolfe no GitHub"/><br>
+        <sub>
+          <b>Ícaro Cristolfe</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
