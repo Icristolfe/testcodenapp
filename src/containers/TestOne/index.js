@@ -1,10 +1,11 @@
 import React, { useState, useRef } from 'react'
+import Header from '../../components/Header';
 
 import { Container, ContainerForm, InfoContainer, Label, Button, ContainerItens } from './style';
 
 
 
-function App() {
+export function TestOne() {
   let itensTabela = [
     {
       id: 1,
@@ -112,7 +113,10 @@ function App() {
 
   return (
     <>
+    <Header />
       <Container>
+      
+
         {
           showForm &&
           <ContainerForm>
@@ -219,4 +223,3 @@ function App() {
     </>
   );
 }
-export default App
