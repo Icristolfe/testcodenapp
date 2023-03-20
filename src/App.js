@@ -77,7 +77,7 @@ function App() {
     const novoTelefone = novoTelefoneRef.current.value;
     const novoValor = novoValorRef.current.value;
 
-    const novosItens = itensTabela.map((item) => {
+    const novosItens = tabela.map((item) => {
       if (item.id === valueID) {
         return {
           ...item,
