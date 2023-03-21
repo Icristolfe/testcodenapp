@@ -52,7 +52,7 @@ export function TestTwo() {
 
   
  function handleClick(e){
-    
+    setTabela()
     if(inputValue.length >1) {
       const newTable = itensTabela.filter((item) =>{
         return item.nome.startsWith(inputValue)
