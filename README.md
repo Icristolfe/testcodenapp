@@ -11,8 +11,6 @@
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/196553482@N03/52758206610/in/dateposted-public/" title="Captura de tela de 2023-03-19 15-57-28"><img src="https://live.staticflickr.com/65535/52758206610_34e6807564_c.jpg" width="1024" height="500" alt="Captura de tela de 2023-03-19 15-57-28"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-
-
 ## Criador do Projeto
 <table>
   <tr>
