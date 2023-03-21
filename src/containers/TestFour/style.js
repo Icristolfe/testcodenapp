@@ -10,6 +10,7 @@ export const Container = styled.div`
     justify-content: center;
     flex-direction: column;
 
+
 `
 
 export const ContainerForm = styled.div`
@@ -68,7 +69,7 @@ export const Button = styled.button`
     border: none;
     width: 150px ;
     height: 25px ;
-    border-radius: none;
+    border-radius: 6px;
     cursor: pointer;
 
     &&:hover {

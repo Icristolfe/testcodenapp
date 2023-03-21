@@ -38,8 +38,15 @@ export const TestFour = () => {
     }
   };
   
-  function handleAddress(){
-    alert(`Endereço enviado com sucesso`)
+  function handleAddress(event){
+
+    event.preventDefault();
+    if(!cep || !endereco || !bairro || !cidade || !uf || !pais){
+       alert(`Digite seu endereço`)
+    }
+    else {
+       alert(`Endereço enviado com sucesso`)
+    }
   }
 
   return (
@@ -48,7 +55,7 @@ export const TestFour = () => {
 
     <Container>
       
-
+    <h1>Endereço</h1>
       <ContainerForm>
     <form onSubmit={handleAddress}>
 
@@ -98,3 +105,4 @@ export const TestFour = () => {
     </>
   );
 };
+
