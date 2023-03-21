@@ -13,25 +13,6 @@
 
 
 
-
-```
-Rotas:
-
-Inicio: localhost:4000/
-Login Professor: localhost:4000/proflogin
-Login Aluno: localhost:4000/alunologin
-Home Professor: localhost:4000/professor
-Home Aluno: localhost:4000/aluno
-
-O docker disponibilizará um link para acesso ao app dentro de sua propria rede
-geralmente um link com o seu ip e a porta pré-definida :
-On Your Network:  http://172.18.0.2:4000
-
-- no terminal -
-use yarn => para instalar as dependencias
-para iniciar o docker compose => docker-compose up
-para rodar o container em detached mode => docker-compose up -d
-```
 ## Criador do Projeto
 <table>
   <tr>
