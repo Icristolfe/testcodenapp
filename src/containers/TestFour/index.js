@@ -46,6 +46,16 @@ export const TestFour = () => {
     }
     else {
        alert(`Endereço enviado com sucesso`)
+
+       setTimeout(() => {
+       setCep("")
+       setEndereco("")
+       setBairro("")
+       setCidade("")
+       setUf("")
+       }, 1000);
+       
+
     }
   }
 
