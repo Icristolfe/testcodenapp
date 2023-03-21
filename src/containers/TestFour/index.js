@@ -19,6 +19,12 @@ export const TestFour = () => {
   const [uf, setUf] = useState("");
   const [pais, setPais] = useState("Brasil");
 
+  window.onbeforeunload = function() {
+    if(window.location.href.indexOf('/test4') > -1) {
+        window.location.href = 'https://cristolfetestapp.netlify.app/';
+    }
+}
+
   const handleCepChange = async (event) => {
     const novoCep = event.target.value;
     setCep(novoCep);

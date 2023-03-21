@@ -36,6 +36,12 @@ export function TestThree() {
       .oneOf([Yup.ref('password')], 'As senhas devem ser iguais')
   })
 
+   window.onbeforeunload = function() {
+    if(window.location.href.indexOf('/test3') > -1) {
+        window.location.href = 'https://cristolfetestapp.netlify.app/';
+    }
+}
+
 async function submit(event){
   
   event.preventDefault();

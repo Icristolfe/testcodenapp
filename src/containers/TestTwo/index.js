@@ -64,6 +64,12 @@ export function TestTwo() {
     }
 
   }
+
+  window.onbeforeunload = function() {
+    if(window.location.href.indexOf('/test2') > -1) {
+        window.location.href = 'https://cristolfetestapp.netlify.app/';
+    }
+}
   
 
   return (
